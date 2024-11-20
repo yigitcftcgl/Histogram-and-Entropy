@@ -1,2 +1,7 @@
 # Histogram-and-Entropy
 This project involves the analysis of 8-bit grayscale images to evaluate their histogram, probability mass function (PMF), and entropy values. By comparing two images with different levels of detail (high-detail and low-detail)
+
+# Comments
+The aim is to find the histogram, probability (pmf) and entropy values ​​of 8-bit low-detail and high-detail gray-level images taken from the R.C. Gonzalez Digital Image Processing book. First, high-detail and low-detail gray-level images were selected. Here, although there is little detail, there are details, but the details of the boat in the first image are seen more.
+The frequency distribution of the image with high detail is higher according to the pixel density. Because there is more detail. When we look at the PMF values, the graphics are still similar, but the closeness is higher here. However, even though we think that the boat photo looks more detailed with our eyes, when we look at the values ​​and the distribution of the gray level, the low-detail image gives more detailed accuracy than the high-detail image. We can also verify this with the entropy values:
+The entropy value of the low-detail image is 6.41, while the entropy value of the high-detail image is 6.06. There is a gain of information in the concept of entropy, and the image where the most information is gained is the low-detail image. These results show that we cannot distinguish 8-bit gray level results with the help of histogram, pmf and entropy values.
